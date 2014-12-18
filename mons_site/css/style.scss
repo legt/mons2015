@@ -1,5 +1,9 @@
 @import 'reset';
 $red:#d45a45;
+::selection{
+	background-color: $red;
+	color: white;
+}
 body{
 	font-family: 'Roboto', sans-serif;
 }
