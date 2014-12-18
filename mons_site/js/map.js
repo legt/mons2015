@@ -41,28 +41,7 @@ function pointeur(i){
 for(i=0; i<listBat.monument.length; i++) {pointeur(i)};
  
 //Style map	
-				var styles = [
-  {
-    "stylers": [
-      { "saturation": -100 },
-      { "weight": 2.3 },
-      { "lightness": -37 },
-      { "visibility": "simplified" },
-      { "gamma": 0.62 }
-    ]
-  },{
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      { "visibility": "on" },
-      { "color": "#393b3a" }
-    ]
-  },{
-    "elementType": "labels.text.fill",
-    "stylers": [
-      { "color": "#b5b5b5" }
-    ]
-  }
-];
+				var styles = [{"featureType":"landscape","stylers":[{"lightness":16},{"hue":"#ff001a"},{"saturation":-61}]},{"featureType":"road.highway","stylers":[{"hue":"#ff0011"},{"lightness":53}]},{"featureType":"poi.park","stylers":[{"hue":"#00ff91"}]},{"elementType":"labels","stylers":[{"lightness":63},{"hue":"#ff0000"}]},{"featureType":"water","stylers":[{"hue":"#0055ff"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]}];
 	
 	map.setOptions({styles: styles});
 }
