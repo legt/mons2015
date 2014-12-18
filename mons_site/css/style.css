@@ -578,4 +578,45 @@ a img {
     color: #d45a45;
     font-weight: 700; }
 
+.button_slider {
+  display: none; }
+
+.container_button_slider {
+  display: none; }
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+  .contenu_info {
+    float: right;
+    padding-top: 25px;
+    width: 48%; }
+
+  h2 {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 200px;
+    background-color: blue;
+    text-align: center;
+    line-height: 115px; }
+
+  .img_monument {
+    height: 471px; }
+
+  .button_slider {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: white; }
+
+  .button_slider:hover {
+    background-color: #d45a45; }
+
+  .container_button_slider {
+    display: block;
+    position: absolute;
+    top: 475px;
+    width: 100%;
+    text-align: center; } }
+
 /*# sourceMappingURL=style.css.map */
