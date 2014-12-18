@@ -50,6 +50,7 @@ html{
 	padding: 0 24px 24px 24px;
 
 	h2{
+		padding-top: 20px;
 		font-size: 16px;
 		color: white;
 		text-transform: uppercase;
@@ -152,12 +153,11 @@ html{
 .hamburger {
 	position: fixed;
 	width: 100%;
-	padding: 20px;
-	background-color: #2a2a2a;
 	z-index: 2000;
 	img{
 		position:fixed;
-		right: 0;
+		top: 10px;
+		right: 15px;
 	}
 }
 

@@ -404,6 +404,7 @@ html {
   z-index: 2;
   padding: 0 24px 24px 24px; }
   .header_contenu h2 {
+    padding-top: 20px;
     font-size: 16px;
     color: white;
     text-transform: uppercase;
@@ -494,12 +495,11 @@ a img {
 .hamburger {
   position: fixed;
   width: 100%;
-  padding: 20px;
-  background-color: #2a2a2a;
   z-index: 2000; }
   .hamburger img {
     position: fixed;
-    right: 0; }
+    top: 10px;
+    right: 15px; }
 
 .nav_bottom {
   display: block;
