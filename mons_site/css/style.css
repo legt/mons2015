@@ -360,7 +360,7 @@ th {
   width: 100%;
   height: 100%;
   background-color: #2a2a2a;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: none;
@@ -489,6 +489,8 @@ html {
   z-index: 2;
   padding: 0 24px 24px 24px; }
   .header_contenu h2 {
+    height: 67px;
+    width: 207px;
     padding-top: 20px;
     font-size: 16px;
     color: white;
@@ -497,11 +499,13 @@ html {
     font-weight: 700;
     text-decoration: underline; }
   .header_contenu .header_contenu_info {
+    margin-top: -10px;
     font-style: 16px;
     font-weight: 500;
     color: white;
     float: left; }
   .header_contenu .header_contenu_info_rep {
+    margin-top: -10px;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -581,20 +585,38 @@ html {
 .container_button_slider {
   display: none; }
 
+.line {
+  display: none; }
+
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  .line {
+    display: block;
+    position: relative;
+    left: 0;
+    height: 3px;
+    width: 100px;
+    background-color: #d45a45; }
+
   .contenu_info {
     float: right;
-    padding-top: 25px;
+    margin-top: 45px;
+    padding-left: 10px;
     width: 48%; }
 
-  h2 {
+  .titre_h2 {
+    display: block;
     position: absolute;
-    left: 0;
+    top: 32px;
+    width: 42%;
+    height: 70px;
+    text-align: center !important; }
+
+  h2 {
+    display: inline-block;
     text-decoration: none;
     padding: 24px;
     border: 1px white solid;
-    border-radius: 2px;
-    text-align: center; }
+    border-radius: 2px; }
 
   .contenu_propos p {
     font-size: 18px; }
